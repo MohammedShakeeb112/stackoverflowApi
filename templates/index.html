@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StackOverflow | Question</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Welcome to StackOverflow {{res}}</h1>
+    <form action="/search">
+        {% comment %} {% csrf_token %} {% endcomment %}
+        <div style="text-align: center;">
+            <div style="padding: 5px;">
+                <label for="page">Page</label>
+                <input type="number" name="page" id="page">
+            </div>
+            <div style="padding: 5px;">
+                <label for="title">Title</label>
+                <input type="text" name="title" id="title">
+            </div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+    <div>
+        <form action='/del' style='text-align:center; margin-top:15px'>
+            <button type='submit'>New Session</button>
+        </form> 
+    </div>
+    <div>
+        {% if success %}
+    <div style="margin:50px">
+        {% comment %} <h1 style="text-align: center;">StackOverflow Search Result</h1> {% endcomment %}
+        {% comment %} {{data.items}} {% endcomment %}
+        {% comment %} <tr>
+            <strong><td>Title</td></strong>
+            <strong><td>Tags</td></strong>
+        </tr> {% endcomment %}
+        <table>
+            <tr>
+				<th>title</th>
+				<th>Answered</th>
+				<th>tags</th>
+			</tr>
+            <tr >
+                {% for d in data %}
+                <tr>
+				<td> <a href="{{d.link}}">{{d.title}}</a> </td>
+				<td>{{d.is_answered}}</td>
+				<td><span>{{d.tags}} </span> </td>
+                </tr>
+            </br>
+                {% endfor %}
+			</tr>
+        </table>
+        <div class="pages">
+    		<span><a></a></span><span style="margin-right: 20px;"></span>
+    		<span><a></a></span>
+    	</div>
+    </div>
+    {% endif %}
+
+    </div>
+</body>
+</html>

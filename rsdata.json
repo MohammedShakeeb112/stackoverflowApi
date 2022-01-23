@@ -1,0 +1,797 @@
+[
+  {
+    "tags": [
+      "android"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 17736596,
+      "user_type": "registered",
+      "profile_image": "https://lh3.googleusercontent.com/a/AATXAJx2LEdngv7U2H1mWtxPvFEU6wgH3KXIGsCLeAdR=k-s256",
+      "display_name": "abdullah haidary",
+      "link": "https://stackoverflow.com/users/17736596/abdullah-haidary"
+    },
+    "is_answered": false,
+    "view_count": 18,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1642345149,
+    "creation_date": 1640138885,
+    "last_edit_date": 1642345149,
+    "question_id": 70443494,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70443494/is-there-a-way-to-disable-network-connections-just-like-putting-the-phone-in-air",
+    "title": "Is there a way to disable network connections just like putting the phone in airplane mode?"
+  },
+  {
+    "tags": [
+      "android"
+    ],
+    "owner": {
+      "reputation": 361,
+      "user_id": 852886,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/c72b289e4f19849764286d7c31162ff2?s=256&d=identicon&r=PG",
+      "display_name": "KevB",
+      "link": "https://stackoverflow.com/users/852886/kevb"
+    },
+    "is_answered": false,
+    "view_count": 15950,
+    "answer_count": 3,
+    "score": 5,
+    "last_activity_date": 1642330960,
+    "creation_date": 1334180892,
+    "question_id": 10114478,
+    "content_license": "CC BY-SA 3.0",
+    "link": "https://stackoverflow.com/questions/10114478/setprop-doesnt-set-the-property-on-rooted-android-phone",
+    "title": "setprop doesn&#39;t set the property on rooted Android phone"
+  },
+  {
+    "tags": [
+      "python",
+      "http",
+      "exception",
+      "wifi",
+      "pycom"
+    ],
+    "owner": {
+      "reputation": 738,
+      "user_id": 8292526,
+      "user_type": "registered",
+      "profile_image": "https://i.stack.imgur.com/M6KMb.jpg?s=256&g=1",
+      "display_name": "EggBender",
+      "link": "https://stackoverflow.com/users/8292526/eggbender"
+    },
+    "is_answered": false,
+    "view_count": 45,
+    "answer_count": 1,
+    "score": 1,
+    "last_activity_date": 1642182700,
+    "creation_date": 1637841850,
+    "last_edit_date": 1638521157,
+    "question_id": 70110801,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70110801/why-is-errno-202-eai-fail-exception-thrown-when-sending-http-post-from-pycom",
+    "title": "Why is &quot;[Errno 202] EAI_FAIL&quot; exception thrown when sending HTTP Post from Pycom WiPy board with _urequest module?"
+  },
+  {
+    "tags": [
+      "javascript",
+      "html",
+      "css",
+      "web"
+    ],
+    "owner": {
+      "reputation": 441,
+      "user_id": 13232607,
+      "user_type": "registered",
+      "profile_image": "https://i.stack.imgur.com/fP7ev.jpg?s=256&g=1",
+      "display_name": "Fred_Wolfe",
+      "link": "https://stackoverflow.com/users/13232607/fred-wolfe"
+    },
+    "is_answered": false,
+    "view_count": 21,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1642162506,
+    "creation_date": 1642161728,
+    "last_edit_date": 1642162506,
+    "question_id": 70710277,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70710277/trying-to-use-the-intersection-observer",
+    "title": "trying to use the Intersection Observer"
+  },
+  {
+    "tags": [
+      "android",
+      "android-data-usage",
+      "mobile-data"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 17914618,
+      "user_type": "registered",
+      "profile_image": "https://lh3.googleusercontent.com/a/AATXAJx5M1_WscK5uAtEuzS02Md9AJZfz_rJpjw7Whk=k-s256",
+      "display_name": "Yogesh Tulsan",
+      "link": "https://stackoverflow.com/users/17914618/yogesh-tulsan"
+    },
+    "is_answered": false,
+    "view_count": 14,
+    "closed_date": 1642070388,
+    "answer_count": 0,
+    "score": -2,
+    "last_activity_date": 1641990911,
+    "creation_date": 1641990911,
+    "question_id": 70681654,
+    "link": "https://stackoverflow.com/questions/70681654/how-to-log-which-service-app-uses-how-much-internetmobile-data-wifi-on-my-andr",
+    "closed_reason": "Needs more focus",
+    "title": "How to log which service/app uses how much internet(mobile data/wifi) on my android phone?"
+  },
+  {
+    "tags": [
+      "android",
+      "bluetooth",
+      "kivy",
+      "kivymd",
+      "pyjnius"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 17734237,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/c722c68e990716036c4246949030ffd7?s=256&d=identicon&r=PG",
+      "display_name": "PythonKivyuser ",
+      "link": "https://stackoverflow.com/users/17734237/pythonkivyuser"
+    },
+    "is_answered": false,
+    "view_count": 38,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1640722265,
+    "creation_date": 1640173933,
+    "question_id": 70448632,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70448632/nameerror-at-bluetooth-kivy-app-on-android-based-on-pyjnius",
+    "title": "NameError at Bluetooth Kivy App on Android, based on Pyjnius"
+  },
+  {
+    "tags": [
+      "android",
+      "android-wifi",
+      "android-networking",
+      "android-ffmpeg",
+      "android-vpn-service"
+    ],
+    "owner": {
+      "reputation": 768,
+      "user_id": 3810104,
+      "user_type": "registered",
+      "profile_image": "https://i.stack.imgur.com/6RNib.jpg?s=256&g=1",
+      "display_name": "punov",
+      "link": "https://stackoverflow.com/users/3810104/punov"
+    },
+    "is_answered": false,
+    "view_count": 26,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1640209739,
+    "creation_date": 1640209739,
+    "question_id": 70455485,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70455485/how-to-control-simultaneous-stable-traffic-for-any-consumers-maps-auth-ffmpe",
+    "title": "How to control simultaneous stable traffic (for any consumers: Maps, Auth, ffmpeg) to Cellular &amp; to WiFi device (known port) for Android App?"
+  },
+  {
+    "tags": [
+      "java",
+      "android",
+      "kotlin",
+      "wifi",
+      "hotspot"
+    ],
+    "owner": {
+      "reputation": 13439,
+      "user_id": 467592,
+      "user_type": "registered",
+      "accept_rate": 92,
+      "profile_image": "https://i.stack.imgur.com/BhIvX.jpg?s=256&g=1",
+      "display_name": "Rohit Sharma",
+      "link": "https://stackoverflow.com/users/467592/rohit-sharma"
+    },
+    "is_answered": true,
+    "view_count": 151846,
+    "protected_date": 1421503747,
+    "accepted_answer_id": 3931094,
+    "answer_count": 10,
+    "score": 85,
+    "last_activity_date": 1640117113,
+    "creation_date": 1287041328,
+    "last_edit_date": 1640117113,
+    "question_id": 3930990,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/3930990/android-how-to-enable-disable-wifi-or-internet-connection-programmatically",
+    "title": "Android: How to Enable/Disable Wifi or Internet Connection Programmatically"
+  },
+  {
+    "tags": [
+      "raspberry-pi",
+      "wifi",
+      "raspberry-pi3",
+      "access-point",
+      "hostapd"
+    ],
+    "owner": {
+      "reputation": 9,
+      "user_id": 16876342,
+      "user_type": "registered",
+      "profile_image": "https://lh3.googleusercontent.com/a/AATXAJx-blVaqPmWVSz0yTtKUrcWb-RUfKINBupjeTqh=k-s256",
+      "display_name": "professional dummy",
+      "link": "https://stackoverflow.com/users/16876342/professional-dummy"
+    },
+    "is_answered": false,
+    "view_count": 44,
+    "answer_count": 0,
+    "score": -1,
+    "last_activity_date": 1639723002,
+    "creation_date": 1639723002,
+    "question_id": 70389302,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70389302/raspi-hostapd-router-wireless-access-point-no-internet",
+    "title": "Raspi hostapd router wireless access point, no internet"
+  },
+  {
+    "tags": [
+      "firebase",
+      "flutter",
+      "google-cloud-firestore",
+      "flutter-streambuilder"
+    ],
+    "owner": {
+      "reputation": 323,
+      "user_id": 1367796,
+      "user_type": "registered",
+      "accept_rate": 86,
+      "profile_image": "https://www.gravatar.com/avatar/22448ca029cc00ac7e9cd776eed4958d?s=256&d=identicon&r=PG",
+      "display_name": "Bence",
+      "link": "https://stackoverflow.com/users/1367796/bence"
+    },
+    "is_answered": false,
+    "view_count": 38,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1639646213,
+    "creation_date": 1639646213,
+    "question_id": 70376493,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70376493/flutter-firebase-stream-sometimes-not-updating",
+    "title": "Flutter Firebase stream sometimes not updating"
+  },
+  {
+    "tags": [
+      "wifi",
+      "robotics",
+      "atmega",
+      "smartphone",
+      "smart-device"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 17635924,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/24131528fc586ce0638bf9a09140a568?s=256&d=identicon&r=PG",
+      "display_name": "gagrim808",
+      "link": "https://stackoverflow.com/users/17635924/gagrim808"
+    },
+    "is_answered": false,
+    "view_count": 21,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1639578146,
+    "creation_date": 1639057245,
+    "last_edit_date": 1639578146,
+    "question_id": 70290926,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70290926/how-do-wifi-bulbs-pair-with-the-mobile",
+    "title": "How do wifi bulbs pair with the mobile"
+  },
+  {
+    "tags": [
+      "ios",
+      "swift",
+      "flutter",
+      "networking",
+      "connectivity"
+    ],
+    "owner": {
+      "reputation": 11,
+      "user_id": 15097941,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/0cbf76c90857ed082dc6a474f281c218?s=256&d=identicon&r=PG&f=1",
+      "display_name": "Niccolo Machiavelli",
+      "link": "https://stackoverflow.com/users/15097941/niccolo-machiavelli"
+    },
+    "is_answered": false,
+    "view_count": 31,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1639405614,
+    "creation_date": 1639404988,
+    "last_edit_date": 1639405614,
+    "question_id": 70336073,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70336073/ios-programatically-use-mobile-data-if-active-wifi-conenction-doesnt-have-acc",
+    "title": "iOS - programatically use Mobile Data if active WiFi conenction doesn&#39;t have access to internet"
+  },
+  {
+    "tags": [
+      "flutter"
+    ],
+    "owner": {
+      "reputation": 13,
+      "user_id": 16781848,
+      "user_type": "registered",
+      "profile_image": "https://graph.facebook.com/3104633963153071/picture?type=large",
+      "display_name": "Altayeb Yousif",
+      "link": "https://stackoverflow.com/users/16781848/altayeb-yousif"
+    },
+    "is_answered": true,
+    "view_count": 30,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1639099208,
+    "creation_date": 1639052343,
+    "question_id": 70289823,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70289823/the-argument-type-futurewidget-cant-be-assigned-to-the-parameter-type-widg",
+    "title": "The argument type &#39;Future&lt;Widget&gt;&#39; can&#39;t be assigned to the parameter type &#39;Widget?&#39;"
+  },
+  {
+    "tags": [
+      "flutter",
+      "dart",
+      "connectivity"
+    ],
+    "owner": {
+      "reputation": 839,
+      "user_id": 15023395,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/d757cdada80a548e7a70a62b79eaeacb?s=256&d=identicon&r=PG&f=1",
+      "display_name": "Arslan Kaleem",
+      "link": "https://stackoverflow.com/users/15023395/arslan-kaleem"
+    },
+    "is_answered": true,
+    "view_count": 66,
+    "closed_date": 1638454153,
+    "answer_count": 2,
+    "score": 0,
+    "last_activity_date": 1638446716,
+    "creation_date": 1638438959,
+    "last_edit_date": 1638446716,
+    "question_id": 70197344,
+    "link": "https://stackoverflow.com/questions/70197344/how-to-check-internet-access-not-only-connectivity-and-how-to-show-error-scree",
+    "closed_reason": "Not suitable for this site",
+    "title": "how to check internet access (not only connectivity) and how to show error screen everytime internet is not working in flutter app"
+  },
+  {
+    "tags": [
+      "adobe-brackets"
+    ],
+    "owner": {
+      "reputation": 53,
+      "user_id": 16057424,
+      "user_type": "registered",
+      "profile_image": "https://lh3.googleusercontent.com/a/AATXAJwIeoy7il__bVz2b8Fj58pArzRwIeT4qMG1vaEC=k-s256",
+      "display_name": "lucifercifer",
+      "link": "https://stackoverflow.com/users/16057424/lucifercifer"
+    },
+    "is_answered": true,
+    "view_count": 3150,
+    "protected_date": 1637100121,
+    "answer_count": 3,
+    "score": 4,
+    "last_activity_date": 1638287362,
+    "creation_date": 1634137511,
+    "question_id": 69557907,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/69557907/brackets-unable-to-access-the-extension-registry",
+    "title": "Brackets unable to access the extension registry"
+  },
+  {
+    "tags": [
+      "wifi",
+      "google-geolocation"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 17540284,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/6d4d804f106acf91cf753a91c66d6cb2?s=256&d=identicon&r=PG",
+      "display_name": "ezececi",
+      "link": "https://stackoverflow.com/users/17540284/ezececi"
+    },
+    "is_answered": false,
+    "view_count": 21,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1638183938,
+    "creation_date": 1638183938,
+    "question_id": 70153605,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70153605/geolocation-api-returns-different-results-for-the-same-wifi-access-point-list-e",
+    "title": "GeoLocation API returns different results for the same wifi access point list, even with &quot;considerIp&quot; flag et set &quot;false&quot;"
+  },
+  {
+    "tags": [
+      "r",
+      "dataframe",
+      "stringr"
+    ],
+    "owner": {
+      "reputation": 97,
+      "user_id": 13043271,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/7d090a861fdc52fa69936fb6b1afe469?s=256&d=identicon&r=PG&f=1",
+      "display_name": "Prabhu",
+      "link": "https://stackoverflow.com/users/13043271/prabhu"
+    },
+    "is_answered": true,
+    "view_count": 36,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1637984867,
+    "creation_date": 1637984229,
+    "last_edit_date": 1637984399,
+    "question_id": 70131863,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70131863/filtering-dataframe-based-on-a-string-in-r",
+    "title": "Filtering dataframe based on a string in R"
+  },
+  {
+    "tags": [
+      "windows",
+      "network-programming",
+      "wifi-direct",
+      "hotspot",
+      "captiveportal"
+    ],
+    "owner": {
+      "reputation": 195,
+      "user_id": 6921898,
+      "user_type": "registered",
+      "profile_image": "https://lh6.googleusercontent.com/-8bXliUxvZqs/AAAAAAAAAAI/AAAAAAAAAN0/mCbaSFJTbVI/photo.jpg?sz=256",
+      "display_name": "aswin prabhakar",
+      "link": "https://stackoverflow.com/users/6921898/aswin-prabhakar"
+    },
+    "is_answered": true,
+    "view_count": 2039,
+    "accepted_answer_id": 60666636,
+    "answer_count": 1,
+    "score": 1,
+    "last_activity_date": 1637333809,
+    "creation_date": 1580107257,
+    "last_edit_date": 1584085493,
+    "question_id": 59926169,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/59926169/is-there-a-way-to-implement-captive-portal-on-windows-hotspot",
+    "title": "Is there a way to implement captive portal on windows hotspot?"
+  },
+  {
+    "tags": [
+      "python",
+      "flask",
+      "gunicorn"
+    ],
+    "owner": {
+      "reputation": 591,
+      "user_id": 16530593,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/1dc8f61ffc43412ca446522772564c97?s=256&d=identicon&r=PG&f=1",
+      "display_name": "Kesslwovv",
+      "link": "https://stackoverflow.com/users/16530593/kesslwovv"
+    },
+    "is_answered": true,
+    "view_count": 183,
+    "accepted_answer_id": 70008814,
+    "answer_count": 3,
+    "score": 2,
+    "last_activity_date": 1637189931,
+    "creation_date": 1637168389,
+    "question_id": 70008594,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/70008594/make-python-flask-application-accessible-from-the-internet-with-gunicorn",
+    "title": "Make python Flask application accessible from the Internet with gunicorn"
+  },
+  {
+    "tags": [
+      "arduino",
+      "ip",
+      "ethernet"
+    ],
+    "owner": {
+      "reputation": 9,
+      "user_id": 3674172,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/?s=256&d=identicon&r=PG&f=1",
+      "display_name": "user3674172",
+      "link": "https://stackoverflow.com/users/3674172/user3674172"
+    },
+    "is_answered": false,
+    "view_count": 7376,
+    "answer_count": 3,
+    "score": 0,
+    "last_activity_date": 1637035826,
+    "creation_date": 1401040308,
+    "question_id": 23858245,
+    "content_license": "CC BY-SA 3.0",
+    "link": "https://stackoverflow.com/questions/23858245/arduino-ethernet-shield-not-working",
+    "title": "Arduino ethernet shield not working"
+  },
+  {
+    "tags": [
+      "raspberry-pi",
+      "router"
+    ],
+    "owner": {
+      "reputation": 33,
+      "user_id": 5390817,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/53b893c44ba187e8512d3a9f7246fd2c?s=256&d=identicon&r=PG&f=1",
+      "display_name": "matrimcauthon",
+      "link": "https://stackoverflow.com/users/5390817/matrimcauthon"
+    },
+    "is_answered": false,
+    "view_count": 63,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1637023371,
+    "creation_date": 1637023371,
+    "question_id": 69982560,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/69982560/trying-to-setup-a-raspberry-pi-4-as-a-linked-wifi-ethernet-router",
+    "title": "Trying to setup a Raspberry Pi 4 as a linked wifi/ethernet router"
+  },
+  {
+    "tags": [
+      "windows",
+      "events",
+      "scheduled-tasks",
+      "autohotkey"
+    ],
+    "owner": {
+      "reputation": 11,
+      "user_id": 11465768,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/d414b621836a67fcbb2251c11a4cf176?s=256&d=identicon&r=PG",
+      "display_name": "NeoNavras",
+      "link": "https://stackoverflow.com/users/11465768/neonavras"
+    },
+    "is_answered": true,
+    "view_count": 530,
+    "closed_date": 1637217651,
+    "accepted_answer_id": 56297288,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1636680181,
+    "creation_date": 1558714586,
+    "last_edit_date": 1636680181,
+    "question_id": 56296274,
+    "link": "https://stackoverflow.com/questions/56296274/running-a-daily-task-via-window-task-scheduler-with-condition-of-internet-access",
+    "closed_reason": "Not suitable for this site",
+    "title": "Running a daily task via Window Task Scheduler with condition of internet access"
+  },
+  {
+    "tags": [
+      "javascript",
+      "android",
+      "react-native",
+      "wifi",
+      "iot"
+    ],
+    "owner": {
+      "reputation": 15,
+      "user_id": 10075219,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/244bba132ffac672486e997ab75e64dc?s=256&d=identicon&r=PG&f=1",
+      "display_name": "spike32",
+      "link": "https://stackoverflow.com/users/10075219/spike32"
+    },
+    "is_answered": false,
+    "view_count": 115,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1636057899,
+    "creation_date": 1622475083,
+    "question_id": 67776616,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/67776616/react-native-network-request-failed-after-wifi-reconnection",
+    "title": "React Native network request failed after WiFi reconnection"
+  },
+  {
+    "tags": [
+      "css",
+      "node.js",
+      "reveal.js",
+      "google-fonts"
+    ],
+    "owner": {
+      "reputation": 65290,
+      "user_id": 515054,
+      "user_type": "registered",
+      "accept_rate": 92,
+      "profile_image": "https://www.gravatar.com/avatar/8c2392da041304fda667e525f3e80fdd?s=256&d=identicon&r=PG",
+      "display_name": "0__",
+      "link": "https://stackoverflow.com/users/515054/0"
+    },
+    "is_answered": true,
+    "view_count": 31,
+    "accepted_answer_id": 69839945,
+    "answer_count": 1,
+    "score": 1,
+    "last_activity_date": 1636033410,
+    "creation_date": 1636030459,
+    "question_id": 69839574,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/69839574/reveal-js-locally-served-with-locally-provided-fonts",
+    "title": "reveal.js - locally served with locally provided fonts"
+  },
+  {
+    "tags": [
+      "iphone",
+      "objective-c",
+      "sockets"
+    ],
+    "owner": {
+      "reputation": 113,
+      "user_id": 151793,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/218be38d89aa777ffd757e97781e0177?s=256&d=identicon&r=PG",
+      "display_name": "Pavel Kurta",
+      "link": "https://stackoverflow.com/users/151793/pavel-kurta"
+    },
+    "is_answered": true,
+    "view_count": 4306,
+    "answer_count": 1,
+    "score": 5,
+    "last_activity_date": 1635819893,
+    "creation_date": 1249565734,
+    "last_edit_date": 1635819893,
+    "question_id": 1238934,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/1238934/getaddrinfo-in-iphone",
+    "title": "getaddrinfo in iPhone"
+  },
+  {
+    "tags": [
+      "xamarin.forms"
+    ],
+    "owner": {
+      "reputation": 27,
+      "user_id": 13443413,
+      "user_type": "registered",
+      "profile_image": "https://www.gravatar.com/avatar/a302982b270846932851fc9d55fe824c?s=256&d=identicon&r=PG&f=1",
+      "display_name": "GordonS",
+      "link": "https://stackoverflow.com/users/13443413/gordons"
+    },
+    "is_answered": false,
+    "view_count": 162,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1635766068,
+    "creation_date": 1635766068,
+    "question_id": 69796286,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/69796286/xamarin-forms-detect-no-internet-when-connected-via-wifi",
+    "title": "Xamarin Forms detect no Internet when connected via WiFi"
+  },
+  {
+    "tags": [
+      "python",
+      "r",
+      "macos"
+    ],
+    "owner": {
+      "reputation": 21,
+      "user_id": 13267574,
+      "user_type": "registered",
+      "profile_image": "https://lh3.googleusercontent.com/a-/AOh14Ghuuf1VHnfF9nNZy5nOagMVALyl4S0z7D0UcZDo=k-s256",
+      "display_name": "David",
+      "link": "https://stackoverflow.com/users/13267574/david"
+    },
+    "is_answered": true,
+    "view_count": 64,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1635462845,
+    "creation_date": 1635311436,
+    "last_edit_date": 1635316218,
+    "question_id": 69733050,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/69733050/mac-can-acceess-internet-but-r-and-python3-cant",
+    "title": "Mac can acceess internet but r and python3 can&#39;t"
+  },
+  {
+    "tags": [
+      "python",
+      "proxy",
+      "browsermob-proxy",
+      "browsermob"
+    ],
+    "owner": {
+      "reputation": 1,
+      "user_id": 11069100,
+      "user_type": "registered",
+      "profile_image": "https://graph.facebook.com/10215702655777095/picture?type=large",
+      "display_name": "Santiago Diaz",
+      "link": "https://stackoverflow.com/users/11069100/santiago-diaz"
+    },
+    "is_answered": false,
+    "view_count": 17,
+    "answer_count": 0,
+    "score": 0,
+    "last_activity_date": 1635276871,
+    "creation_date": 1635176380,
+    "last_edit_date": 1635276871,
+    "question_id": 69710986,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/69710986/can-i-use-the-python-client-of-browsermobproxy-with-a-real-device-resolved",
+    "title": "Can I use the python client of browsermobproxy with a real device? [resolved]"
+  },
+  {
+    "tags": [
+      "http",
+      "jmeter",
+      "bandwidth",
+      "throughput",
+      "bandwidth-throttling"
+    ],
+    "owner": {
+      "reputation": 181,
+      "user_id": 8421343,
+      "user_type": "registered",
+      "profile_image": "https://i.stack.imgur.com/igoZX.jpg?s=256&g=1",
+      "display_name": "JustNatural",
+      "link": "https://stackoverflow.com/users/8421343/justnatural"
+    },
+    "is_answered": true,
+    "view_count": 38,
+    "accepted_answer_id": 69612245,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1634542092,
+    "creation_date": 1634473655,
+    "question_id": 69604344,
+    "content_license": "CC BY-SA 4.0",
+    "link": "https://stackoverflow.com/questions/69604344/determining-how-much-of-the-network-bandwith-is-utilized-during-after-a-jmeter-t",
+    "title": "Determining how much of the network bandwith is utilized during/after a jmeter test"
+  },
+  {
+    "tags": [
+      "ios",
+      "networking",
+      "wifi",
+      "ipv6"
+    ],
+    "owner": {
+      "reputation": 1027,
+      "user_id": 1042429,
+      "user_type": "registered",
+      "accept_rate": 48,
+      "profile_image": "https://www.gravatar.com/avatar/d83167f5462dce92fb1a441417b51123?s=256&d=identicon&r=PG",
+      "display_name": "lives",
+      "link": "https://stackoverflow.com/users/1042429/lives"
+    },
+    "is_answered": true,
+    "view_count": 79,
+    "closed_date": 1634399556,
+    "accepted_answer_id": 69487597,
+    "answer_count": 1,
+    "score": 0,
+    "last_activity_date": 1633676389,
+    "creation_date": 1633276152,
+    "last_edit_date": 1633676389,
+    "question_id": 69426429,
+    "link": "https://stackoverflow.com/questions/69426429/iphone-connectivity-over-wifi-socket-apple-nw-framework",
+    "closed_reason": "Not suitable for this site",
+    "title": "iPhone connectivity over wifi , socket &amp; Apple NW framework"
+  }
+]
