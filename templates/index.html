@@ -1,47 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+    </style>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>StackOverflow | Question</title>
+    <link rel="stylesheet" 
+        href=
+"https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity=
+"sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+        crossorigin="anonymous">
 </head>
 <body>
     <h1 style="text-align: center;">Welcome to StackOverflow {{res}}</h1>
-    <form action="/search">
-        {% comment %} {% csrf_token %} {% endcomment %}
-        <div style="text-align: center;">
-            <div style="padding: 5px;">
-                <label for="page">Page</label>
-                <input type="number" name="page" id="page">
+    <form action="/search" style="margin-left:25px; width:75;">
+        <div class="form-inline" style="text-align: center;">
+            <div style="padding: 10px;">
+                <label for="page">page</label>
+                <input type="number" name="page" id="page" class="form-control" value="{{page}}">
             </div>
-            <div style="padding: 5px;">
-                <label for="title">Title</label>
-                <input type="text" name="title" id="title">
+            <div style="padding: 10px;">
+                <label for="pagesize">pagesize</label>
+                <input type="number" name="pagesize" id="pagesize" class="form-control" value="{{pagesize}}">
             </div>
-            <button type="submit">Submit</button>
+            <div style="padding: 10px;">
+                <label for="fromdate">fromdate</label>
+                <input type="date" name="fromdate" id="fromdate" class="form-control" value="{{fromdate}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="todate">todate</label>
+                <input type="date" name="todate" id="todate" class="form-control" value="{{todate}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="order">order</label>
+                <select name="order" id="order" class="form-control">
+                    <option value="desc" selected>desc</option>
+                    <option value="asc">asc</option>
+                </select>
+            </div>
+            <div style="padding: 10px;">
+                <label for="min">min</label>
+                <input type="date" name="min" id="min" class="form-control" value="{{min}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="max">max</label>
+                <input type="date" name="max" id="max" class="form-control" value="{{max}}">
+            </div>
+            <div style="padding: 10px">
+                <label for="sort">sort</label>
+                <select name="sort" id="sort" class="form-control">
+                    <option value="activity" selected>activity</option>
+                    <option value="votes">votes</option>
+                    <option value="creation">creation</option>
+                    <option value="relevance">relevance</option>
+                </select>
+            </div>
+            <div style="padding: 10px;">
+                <label for="q">q</label>
+                <input type="text" name="q" id="q" class="form-control" value="{{q}}">
+            </div>
+            <div style="padding: 10px">
+                <label for="accepted">accepted</label>
+                <select name="accepted" id="accepted" class="form-control">
+                    <option value="" selected></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+            </div>
+            <div style="padding: 10px;">
+                <label for="answers">answers</label>
+                <input type="text" name="answers" id="answer" class="form-control" value="{{answers}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="body">body</label>
+                <input type="text" name="body" id="body" class="form-control" value="{{body}}">
+            </div>
+            <div style="padding: 10px">
+                <label for="closed">closed</label>
+                <select name="closed" id="closed"class="form-control" >
+                    <option value="" selected></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+            </div>
+            <div style="padding: 10px">
+                <label for="migrated">migrated</label>
+                <select name="migrated" id="migrated"class="form-control" >
+                    <option value="" selected></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+            </div>
+            <div style="padding: 10px">
+                <label for="notice">notice</label>
+                <select name="notice" id="notice"class="form-control" >
+                    <option value="" selected></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+            </div>
+            <div style="padding: 10px;">
+                <label for="nottagged">nottagged</label>
+                <input type="text" name="nottagged" id="nottagged" class="form-control" value="{{nottagged}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="tagged">tagged</label>
+                <input type="text" name="tagged" id="tagged" class="form-control" value="{{tagged}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="title">title</label>
+                <input type="text" name="title" id="title" class="form-control" value="{{title}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="user">user</label>
+                <input type="text" name="user" id="user" class="form-control" value="{{user}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="url">url</label>
+                <input type="text" name="url" id="url" class="form-control" value="{{url}}">
+            </div>
+            <div style="padding: 10px;">
+                <label for="views">views</label>
+                <input type="text" name="views" id="views" class="form-control" value="{{views}}">
+            </div>
+            <div style="padding: 10px">
+                <label for="wiki">wiki</label>
+                <select name="wiki" id="wiki"class="form-control" >
+                    <option value="" selected></option>
+                    <option value="True">True</option>
+                    <option value="False">False</option>
+                </select>
+            </div>
+            <div style="margin-top: 20px">
+            <button type="submit" class="form-control btn btn-primary">Submit</button>
+            </div>
         </div>
     </form>
 
-    <div>
-        <form action='/del' style='text-align:center; margin-top:15px'>
-            <button type='submit'>New Session</button>
+    <div  style='text-align:center; margin-top:10px;'>
+        <form action='/del' >
+            <button type='submit' class="btn btn-primary">New Session</button>
         </form> 
     </div>
-    <div>
         {% if success %}
-    <div style="margin:50px">
-        {% comment %} <h1 style="text-align: center;">StackOverflow Search Result</h1> {% endcomment %}
-        {% comment %} {{data.items}} {% endcomment %}
-        {% comment %} <tr>
-            <strong><td>Title</td></strong>
-            <strong><td>Tags</td></strong>
-        </tr> {% endcomment %}
-        <table>
+    <div style="margin-right: 20px;margin-left: 20px;">
+        <table style="width:100%">
             <tr>
-				<th>title</th>
+				<th>Title</th>
 				<th>Answered</th>
-				<th>tags</th>
+				<th>Tags</th>
 			</tr>
             <tr >
                 {% for d in data %}
@@ -53,14 +166,21 @@
             </br>
                 {% endfor %}
 			</tr>
-        </table>
-        <div class="pages">
-    		<span><a></a></span><span style="margin-right: 20px;"></span>
-    		<span><a></a></span>
-    	</div>
+        </table>  
+    </br></br>
+        <span>
+        {% if data.has_previous %}
+        <a href="/search?page={{data.previous_page_number}}&amp;title={{title}}&amp;pagesize={{pagesize}}&amp;fromdate={{fromdate}}&amp;todate={{todate}}&amp;order={{order}}&amp;min={{min}}&amp;max={{max}}&amp;sort={{sort}}&amp;q={{q}}&amp;accepted={{accepted}}&amp;answers={{answers}}&amp;body={{body}}&amp;closed={{closed}}&amp;migrated={{migrated}}&amp;notice={{notice}}&amp;nottagged={{nottagged}}&amp;tagged={{tagged}}&amp;title={{title}}&amp;user={{user}}&amp;url={{url}}&amp;views={{views}}&amp;wiki={{wiki}}">Previous</a>
+        {% endif %}
+        </span>
+        <span>
+            {{data.number}}
+        </span>
+        {% if data.has_next %}
+        <a href="/search?page={{data.next_page_number}}&amp;title={{title}}&amp;pagesize={{pagesize}}&amp;fromdate={{fromdate}}&amp;todate={{todate}}&amp;order={{order}}&amp;min={{min}}&amp;max={{max}}&amp;sort={{sort}}&amp;q={{q}}&amp;accepted={{accepted}}&amp;answers={{answers}}&amp;body={{body}}&amp;closed={{closed}}&amp;migrated={{migrated}}&amp;notice={{notice}}&amp;nottagged={{nottagged}}&amp;tagged={{tagged}}&amp;title={{title}}&amp;user={{user}}&amp;url={{url}}&amp;views={{views}}&amp;wiki={{wiki}}">Next</a>
+        {% endif %}
+    </br></br>
     </div>
     {% endif %}
-
-    </div>
 </body>
 </html>

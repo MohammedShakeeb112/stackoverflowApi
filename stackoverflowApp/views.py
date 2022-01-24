@@ -24,8 +24,8 @@ def home(request):
         request.session['day_time'] = val.split('.')[0]
         # print('1ST',request.session['count'], request.session['time'])
         # print('2ND',request.session['day_count'], request.session['day_time'])
-    print('ReInitialCOUNT&TIME',request.session['count'], request.session['time'])
-    print('ReInitialDAYcount&DAYtime',request.session['day_count'], request.session['day_time'])
+    # print('ReInitialCOUNT&TIME',request.session['count'], request.session['time'])
+    # print('ReInitialDAYcount&DAYtime',request.session['day_count'], request.session['day_time'])
     # print(type(request.session['count']), type(request.session['day_count']))
     # sp = datetime.time(datetime.now()).__str__().split('.')[0].split(':')
     # sec = int(sp[0])*3600+int(sp[1])*60+int(sp[2])
@@ -33,11 +33,12 @@ def home(request):
     # print(datetime.time(datetime.now()).__str__().split('.')[0])
     # sp = datetime.strptime(datetime.time(datetime.now()).__str__().split('.')[0], '%H:%M:%S') - datetime.strptime(request.session['time'], '%H:%M:%S')
     # print(sp)
+    # print(request.GET)
     return render(request, 'index.html', context)
 
 
 def search(request):
-    print('SEARCH')
+    # print('SEARCH')
     # print((datetime.time(datetime.now()).__str__().split('.')[0]))
     # consumeTime = datetime.strptime(datetime.time(datetime.now()).__str__().split('.')[0], '%H:%M:%S')
     # ot = request.session['time']
@@ -56,40 +57,89 @@ def search(request):
     # # return HttpResponse('it worked')
     # context = {'success':True, 'data': data, 'res': 'Result'}
     # return render(request, 'index.html', context)
-    print(request.session['time'])
-    print(datetime.strptime(request.session['time'], '%H:%M:%S'))
+    # print(request.session['time'])
+    # print(datetime.strptime(request.session['time'], '%H:%M:%S'))
     spent = datetime.strptime(datetime.time(datetime.now()).__str__().split('.')[0], '%H:%M:%S') - datetime.strptime(request.session['time'], '%H:%M:%S')
     xyz=spent.__str__().split(':')
     sec = (int(xyz[0])*3600)+(int(xyz[1])*60)+int(xyz[2])
-    print(request.session['count'], sec, request.session['day_count'])
+    # print(request.session['count'], sec, request.session['day_count'])
     if request.session['count'] < 5 and sec < 60 and request.session['day_count'] < 100:
-        question = request.GET.get('title')
-        print(question)
+        # print(request.GET)
+        title = request.GET.get('title')
+        q = request.GET.get('q')
+        pagesize = request.GET.get('pagesize')
+        fromdate = request.GET.get('fromdate')
+        todate = request.GET.get('todate')
+        order = request.GET.get('order')
+        min = request.GET.get('min')
+        max = request.GET.get('max')
+        sort = request.GET.get('sort')
+        accepted = request.GET.get('accepted')
+        answers = request.GET.get('answers')
+        body = request.GET.get('body')
+        closed = request.GET.get('closed')
+        migrated = request.GET.get('migrated')
+        notice = request.GET.get('notice')
+        nottagged = request.GET.get('nottagged')
+        tagged = request.GET.get('tagged')
+        user = request.GET.get('user')
+        url = request.GET.get('url')
+        views = request.GET.get('views')
+        wiki = request.GET.get('wiki')
+        page = request.GET.get('page')
+        # print(question)
         # return HttpResponse('if condition')
         request.session['count'] += 1
         request.session['day_count'] += 1
-        data = questionApi(question)
+        data = questionApi(q, title, page, pagesize, fromdate, todate, order, min, max, sort, accepted, answers, body, closed, migrated, notice, nottagged, tagged, user, url, views, wiki)
         paginator = Paginator(data, 10)
-        print(paginator.count)
-        print(paginator.num_pages)
-        print(paginator.page_range)
-        page = request.GET.get('page',1)
-        print(page)
-        data = paginator.page(1)
-        print(data)
+        # print(paginator.count)
+        # print(paginator.num_pages)
+        # print(paginator.page_range)
+        # print(page)
+        data = paginator.get_page(page)
+        # print(data)
         # print(len(data.object_list))
         # print(data.has_next())
         # if data.has_previous():
         #     data['has_previous'] = data.has_previous()
         #     data['previous_page_number'] = data.previous_page_number()
-        print(data.has_next(), data.has_previous())
+        # print(data.has_next(), data.has_previous())
         # if data.has_next():
         #     data['has_next'] = data.has_next()
         #     data['next_page_number'] = data.next_page_number()
 
         # data['last_page'] = paginator.num_pages
         # data['current'] = page
-        context = {'success':True, 'data': data, 'res': 'Result'}
+        context = {
+        'success':True, 
+        'data': data, 
+        'res': 'Result', 
+        'title':title, 
+        'page':page, 
+        'q': q,
+        'order': order,
+        'sort': sort,
+        'title': title,
+        'page': page,
+        'pagesize': pagesize,
+        'fromdate': fromdate,
+        'todate': todate,
+        'min': min,
+        'max': max,
+        'accepted': accepted,
+        'answers': answers,
+        'body': body,
+        'closed': closed,
+        'migrated': migrated,
+        'notice': notice,
+        'nottagged': nottagged,
+        'tagged': tagged,
+        'url': url,
+        'views': views,
+        'user': user,
+        'wiki': wiki}
+        # print(context['user'])
         return render(request, 'index.html', context)
     else:
         print('SEC', sec)
@@ -97,7 +147,7 @@ def search(request):
             request.session['count'] = 0
             val = datetime.time(datetime.now()).__str__().split('.')[0]
             request.session['time'] = val
-            print(request.session['time'])
+            # print(request.session['time'])
             message = {'answers': [{'title': 'You got 5 new search limit for this minute please search again'}]}
             # return JsonResponse(data)
             return JsonResponse(message)
@@ -108,19 +158,38 @@ def search(request):
 
 
 # restapi to fetch data from stackoverflow
-def questionApi(question):
-    url = 'https://api.stackexchange.com/2.3/search/advanced'
+def questionApi(q, title, page, pagesize, fromdate, todate, order, min, max, sort, accepted, answers, body, closed, migrated, notice, nottagged, tagged, user, url, views, wiki):
+    urls = 'https://api.stackexchange.com/2.3/search/advanced'
     params = {
-        # 'q': request.GET['title'],
-        'q': question,
+        'q': q,
         'site': 'stackoverflow',
-        'order': 'desc',
-        'sort': 'activity'
+        'order': order,
+        'sort': sort,
+        'title': title,
+        'page': page,
+        'pagesize': pagesize,
+        'fromdate': fromdate,
+        'todate': todate,
+        'min': min,
+        'max': max,
+        'accepted': accepted,
+        'answers': answers,
+        'body': body,
+        'closed': closed,
+        'migrated': migrated,
+        'notice': notice,
+        'nottagged': nottagged,
+        'tagged': tagged,
+        'url': url,
+        'views': views,
+        'user': user,
+        'wiki': wiki
     }
     # print(request.session)
     # print(request.GET['title'])
 
-    data = requests.get(url, params).json()['items']
+    data = requests.get(urls, params).json()['items']
+    # print(data)
     # print('POST',request)
     # page = request.POST['page']
     # title = request.POST['title']
